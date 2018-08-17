@@ -1,0 +1,41 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "KaniRobinson <me@kanirobinson.co.uk>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.1",
+    "@nuxtjs/moment": "^1.0.0",
+    "@nuxtjs/toast": "^3.0.1",
+    "moment": "^2.22.2",
+    "nuxt": "^1.0.0",
+    "schepotin-vuex-helpers": "Shchepotin/vuex-helpers",
+    "spyfu-vuex-helpers": "^0.12.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.1.0",
+    "babel-eslint": "^8.2.1",
+    "cssnano": "^4.0.5",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "glob-all": "^3.1.0",
+    "postcss-import": "^12.0.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^5.3.0",
+    "postcss-url": "^8.0.0",
+    "purgecss-webpack-plugin": "^1.2.0",
+    "tailwindcss": "^0.6.4"
+  }
+}
